@@ -1,3 +1,4 @@
+/* Designed & Developed by Erik Zuuring - http://erikzuuring.com */
 
 
 ::selection {
@@ -51,6 +52,7 @@ button {
 	font-family: 'Open Sans', sans-serif;
 	padding: 20px 50px;
 	font-size: 1.1em;
+	font-weight: 200;
 }
 
 table {
@@ -67,11 +69,17 @@ th {
 	background: #60afde;
 	color: #fff!important;
 	font-weight: 200;
-	
+
 }
+
 
 .divider {
 	padding: 20px 0;
+}
+
+
+.divborder { 
+	border-right: 1px solid #eee 
 }
 
 .header {
@@ -207,12 +215,35 @@ th {
 
 }
 
+.content .ftr {
+	color: #bebebe;
+	margin-bottom: 25px;
+}
+
+.content .inline {
+	display: inline;
+	padding-right: 10px;
+}
+
+.content .meta {
+	color: #c7c7c7;
+	font-size: 0.9em;
+}
+
+.content button {
+	padding: 15px 30px;
+}
+
 .content h2, .content h3 {
 	color: #32acde;	
 }
 
 .content .map {
 	margin: 40px 0;
+}
+
+.content .row {
+	
 }
 
 .content .featured {
@@ -236,6 +267,7 @@ th {
 }
 
 .content article {
+	margin-top: 15px;
 	margin-bottom: 25px;
 }
 
@@ -285,7 +317,7 @@ th {
 	background: #f1f1f1;
 }
 
-.search h1 {
+.search h1, .grey h1 {
 	color: #32acde;
 	margin-bottom: 20px;
 }
@@ -323,6 +355,29 @@ th {
 
 .search input:after {
 	background: url('../img/search.png');
+}
+
+.grey input {
+	border: none!important;
+	Background: #fff;
+	padding: 30px 25px;
+	margin: 10px 0;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 200;
+	box-shadow: none;
+}
+
+.grey input:focus {
+	background: #fff;
+	border: 2px solid #288cb5;
+    background-position: 450px 18px;
+    background-repeat: no-repeat;
+    transition: border 0.2s ease-in-out;
+}
+
+.grey button {
+	padding: 18px 50px;
+	margin: 10px 0;
 }
 
 .banner {
