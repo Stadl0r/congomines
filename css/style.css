@@ -122,7 +122,8 @@ th {
 }
 
 .header .logo img {
-	max-width: 225px
+	max-width: 150px;
+	margin-top: -60px;
 }
 
 .header .navigation {
@@ -167,6 +168,11 @@ th {
 	z-index: 999;
 	padding-top: 30px;
 
+}
+
+.past-main .logo img {
+	max-width: 100px;
+	margin-top: -20px;
 }
 
 .footer {
